@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+
+
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace Gratitude
@@ -23,6 +25,7 @@ namespace Gratitude
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -30,7 +33,13 @@ namespace Gratitude
 
         private async void button_Click(object sender, RoutedEventArgs e)
         {
-            MessageDialog showDialog = new MessageDialog("Hi Welcome to Windows 10");
+
+            var res = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+
+            Random rnd = new Random();
+
+            int mIndex = rnd.Next(1, 33);
+            MessageDialog showDialog = new MessageDialog(res.GetString(mIndex.ToString()));
             showDialog.Commands.Add(new UICommand("Ok")
             {
                 Id = 0

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1" xml:space="preserve">
+    <value>You shouldn’t give circumstances the power to rouse anger, for they don’t care at all.
+- Marcus Aurelius</value>
+  </data>
+  <data name="10" xml:space="preserve">
+    <value>“Whenever you find yourself on the side of the majority, it is time to pause and reflect.”
+-Mark Twain</value>
+  </data>
+  <data name="11" xml:space="preserve">
+    <value>“I will not let anyone walk through my mind with their dirty feet.”
+-Mahatma Gandhi</value>
+  </data>
+  <data name="12" xml:space="preserve">
+    <value>“Better to write for yourself and have no public, than to write for the public and have no self.”
+-Cyril Connolly</value>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>“We must not allow other people’s limited perceptions to define us.”
+-Virginia Satir</value>
+  </data>
+  <data name="14" xml:space="preserve">
+    <value>“Don’t look for society to give you permission to be yourself.”
+-Steve Maraboli</value>
+  </data>
+  <data name="15" xml:space="preserve">
+    <value>“If things go wrong, don’t go with them.”
+-Roger Babson</value>
+  </data>
+  <data name="16" xml:space="preserve">
+    <value>“Wanting to be someone else is a waste of who you are.”
+-Kurt Cobain</value>
+  </data>
+  <data name="17" xml:space="preserve">
+    <value>“Tension is who you think you should be. Relaxation is who you are.”
+-Chinese Proverb</value>
+  </data>
+  <data name="18" xml:space="preserve">
+    <value>“Where’s your will to be weird?”
+-Jim Morrison</value>
+  </data>
+  <data name="19" xml:space="preserve">
+    <value>“Some people say you are going the wrong way, when it’s simply a way of your own.”
+-Angelina Jolie</value>
+  </data>
+  <data name="2" xml:space="preserve">
+    <value>Erase the false impressions from your mind by constantly saying to yourself, I have it in my soul to keep out any evil, desire or any kind of disturbance—instead, seeing the true nature of things, I will give them only their due. Always remember this power that nature gave you.
+- Marcus Aurelius</value>
+  </data>
+  <data name="20" xml:space="preserve">
+    <value>“Remember to always be yourself. Unless you suck.”
+-Joss Whedon</value>
+  </data>
+  <data name="21" xml:space="preserve">
+    <value>“Do what you can, with what you have, where you are.”
+-Theodore Roosevelt</value>
+  </data>
+  <data name="22" xml:space="preserve">
+    <value>“Be yourself; everyone else is already taken.”
+-Oscar Wilde</value>
+  </data>
+  <data name="23" xml:space="preserve">
+    <value>“I took a deep breath and listened to the old bray of my heart. I am. I am. I am.”
+-Sylvia Plath</value>
+  </data>
+  <data name="24" xml:space="preserve">
+    <value>“There came a time when the risk to remain tight in the bud was more painful than the risk it took to blossom.”
+-Anaïs Nin</value>
+  </data>
+  <data name="25" xml:space="preserve">
+    <value>“To find yourself, think for yourself.”
+-Socrates</value>
+  </data>
+  <data name="26" xml:space="preserve">
+    <value>“If you seek authenticity for authenticity’s sake you are no longer authentic.”
+-Jean Paul Sartre</value>
+  </data>
+  <data name="27" xml:space="preserve">
+    <value>“If you cannot be a poet, be the poem.”
+-David Carradine</value>
+  </data>
+  <data name="28" xml:space="preserve">
+    <value>“When one is pretending the entire body revolts.”
+-Anaïs Nin</value>
+  </data>
+  <data name="29" xml:space="preserve">
+    <value>“Be there for others, but never leave yourself behind.”
+-Dodinsky</value>
+  </data>
+  <data name="3" xml:space="preserve">
+    <value>We are really competing against ourselves, we have no control over how other people perform.
+- Pete Cashmore</value>
+  </data>
+  <data name="30" xml:space="preserve">
+    <value>“Do what you must,
+And your friends will adjust.”
+-Robert Brault</value>
+  </data>
+  <data name="31" xml:space="preserve">
+    <value>“Just let awareness have its way with you completely.”
+-Scott Morrison</value>
+  </data>
+  <data name="32" xml:space="preserve">
+    <value>“We must be our own before we can be another’s.”
+-Ralph Waldo Emerson</value>
+  </data>
+  <data name="33" xml:space="preserve">
+    <value>“This above all: to thine own self be true.”
+-William Shakespeare</value>
+  </data>
+  <data name="4" xml:space="preserve">
+    <value>“How many cares one loses when one decides not to be something but to be someone.” -Gabrielle “Coco” Chanel</value>
+  </data>
+  <data name="5" xml:space="preserve">
+    <value>“Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.”
+-Dr. Seuss</value>
+  </data>
+  <data name="6" xml:space="preserve">
+    <value>“Imitation is suicide.”
+-Ralph Waldo Emerson</value>
+  </data>
+  <data name="7" xml:space="preserve">
+    <value>“Do your own thing on your own terms and get what you came here for.”
+-Oliver James</value>
+  </data>
+  <data name="8" xml:space="preserve">
+    <value>“Flatter yourself critically.”
+-Willis Goth Regier</value>
+  </data>
+  <data name="9" xml:space="preserve">
+    <value>“Do what you feel in your heart to be right, for you’ll be criticized anyway.”
+-Eleanor Roosevelt</value>
+  </data>
+</root>
