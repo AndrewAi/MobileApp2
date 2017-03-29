@@ -7,11 +7,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="button" Content="Show Qoute&#xD;&#xA;" HorizontalAlignment="Left" Margin="77,10,0,0" VerticalAlignment="Top" Height="205" Width="192" Click="button_Click">
-        </Button>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.498,0.374">
 
-        <Button x:Name="button1" Content="Start Meditation" HorizontalAlignment="Left" Margin="77,289,0,0" VerticalAlignment="Top" Height="157" Width="192"/>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Button x:Name="button" Content="Show Qoute&#xD;&#xA;" HorizontalAlignment="Left" Margin="10" VerticalAlignment="Stretch" Height="157" Width="192" Click="button_Click"/>
+
+
+            <TextBox Header="Meditation Time" x:Name="TimeBox" PlaceholderText="Enter Minutes" Margin="4" Height="69" Width="192"/>
+            <Button x:Name="button1" Content="Start Meditation" Height="157" Width="192" Margin="4" Click="button_Click3" />
+
+        </StackPanel>
 
     </Grid>
 </Page>

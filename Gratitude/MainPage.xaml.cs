@@ -26,10 +26,80 @@ namespace Gratitude
     public sealed partial class MainPage : Page
     {
 
+        private DispatcherTimer timer;
+        private DispatcherTimer timer2;
+
+        private int basetime;
+        private int startTime;
+
+
         public MainPage()
         {
             this.InitializeComponent();
+
+
+            this.NavigationCacheMode = NavigationCacheMode.Required;
+            timer = new DispatcherTimer();
+            timer.Interval = new TimeSpan(0, 1, 0);
+            timer.Tick += timer_Tick;
+
+            this.NavigationCacheMode = NavigationCacheMode.Required;
+            timer2 = new DispatcherTimer();
+            timer2.Interval = new TimeSpan(0, 0, 1);
+            timer2.Tick += timer2_Tick;
+
         }
+
+        private async void timer_Tick(object sender, object e)
+        {
+
+            basetime = basetime - 1;
+
+            if (basetime == 0)
+            {
+                timer.Stop();
+
+
+
+                MessageDialog showDialog = new MessageDialog("asd");
+                showDialog.Commands.Add(new UICommand("Ok")
+                {
+                    Id = 0
+                });
+
+                showDialog.DefaultCommandIndex = 0;
+                showDialog.CancelCommandIndex = 1;
+                var result = await showDialog.ShowAsync();
+            }
+
+        }
+
+
+        private async void timer2_Tick(object sender, object e)
+        {
+
+            startTime = startTime - 1;
+
+            if (startTime == 0)
+            {
+                timer2.Stop();
+
+
+
+                MessageDialog showDialog = new MessageDialog("bbb");
+                showDialog.Commands.Add(new UICommand("Ok")
+                {
+                    Id = 0
+                });
+
+                showDialog.DefaultCommandIndex = 0;
+                showDialog.CancelCommandIndex = 1;
+                var result = await showDialog.ShowAsync();
+            }
+
+        }
+
+
 
         private async void button_Click(object sender, RoutedEventArgs e)
         {
@@ -48,8 +118,63 @@ namespace Gratitude
             showDialog.DefaultCommandIndex = 0;
             showDialog.CancelCommandIndex = 1;
             var result = await showDialog.ShowAsync();
-            
-          
+
+         
+
+
         }
+
+       /* private async void button_Click2(Object sender, RoutedEventArgs e)
+        {
+            int anInteger;
+            //anInteger = Convert.ToInt32(TimeBox.Text);
+            anInteger = int.Parse(TimeBox.Text);
+
+
+        }
+        */
+
+
+        private async void button_Click3(object sender, RoutedEventArgs e)
+        {
+
+            System.Diagnostics.Debug.WriteLine("btn3");
+
+            int timeInt;
+           
+            timeInt = int.Parse(TimeBox.Text);
+
+            //String Key = timeInt.ToString().PadRight(5, '0');
+
+            //int i = 321;
+            //Key = i.ToString().PadLeft(10, '0');
+
+
+            basetime = timeInt;
+            timer.Start();
+
+
+
+            MessageDialog showDialog = new MessageDialog("Get into a comfortable position, and ready to meditate. The start bell will sound in 10 seconds,"
+                                                           + "And the ending bell will sound in " + timeInt + " minutes. enjoy! breath in & out through the nose focusing on the breath coming in and out. :)");
+            showDialog.Commands.Add(new UICommand("Ok")
+            {
+                Id = 0
+            });
+
+            showDialog.DefaultCommandIndex = 0;
+            showDialog.CancelCommandIndex = 1;
+            var result = await showDialog.ShowAsync();
+
+            startTime = 10;
+            timer2.Start();
+
+        }
+
+
+
+      
+
+
     }
 }
