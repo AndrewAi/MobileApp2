@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -60,16 +61,7 @@ namespace Gratitude
                 timer.Stop();
 
 
-
-                MessageDialog showDialog = new MessageDialog("asd");
-                showDialog.Commands.Add(new UICommand("Ok")
-                {
-                    Id = 0
-                });
-
-                showDialog.DefaultCommandIndex = 0;
-                showDialog.CancelCommandIndex = 1;
-                var result = await showDialog.ShowAsync();
+                
             }
 
         }
@@ -84,17 +76,8 @@ namespace Gratitude
             {
                 timer2.Stop();
 
+               
 
-
-                MessageDialog showDialog = new MessageDialog("bbb");
-                showDialog.Commands.Add(new UICommand("Ok")
-                {
-                    Id = 0
-                });
-
-                showDialog.DefaultCommandIndex = 0;
-                showDialog.CancelCommandIndex = 1;
-                var result = await showDialog.ShowAsync();
             }
 
         }
@@ -135,14 +118,14 @@ namespace Gratitude
         */
 
 
-        private async void button_Click3(object sender, RoutedEventArgs e)
+        private async void button2_Click(object sender, RoutedEventArgs e)
         {
 
             System.Diagnostics.Debug.WriteLine("btn3");
 
             int timeInt;
            
-            timeInt = int.Parse(TimeBox.Text);
+            timeInt = int.Parse(textBox.Text);
 
             //String Key = timeInt.ToString().PadRight(5, '0');
 

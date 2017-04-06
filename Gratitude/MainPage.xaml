@@ -12,13 +12,23 @@
 
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
 
-            <Button x:Name="button" Content="Show Qoute&#xD;&#xA;" HorizontalAlignment="Left" Margin="10" VerticalAlignment="Stretch" Height="157" Width="192" Click="button_Click"/>
-
+            <Button x:Name="button" HorizontalAlignment="Left" Content="Show Quote" Margin="10" VerticalAlignment="Stretch" Height="157" Width="192"  Click="button_Click" />
 
             <TextBox Header="Meditation Time" x:Name="TimeBox" PlaceholderText="Enter Minutes" Margin="4" Height="69" Width="192"/>
-            <Button x:Name="button1" Content="Start Meditation" Height="157" Width="192" Margin="4" Click="button_Click3" />
+
+
+
+            <Button x:Name="button3" Content="Start Meditation" Height="157" Width="192" Margin="4" Click="button2_Click" />
 
         </StackPanel>
 
+        <MediaElement Name="my" Source="Assets/my.mp3"/>
+
+
+
     </Grid>
+
+
+
+
 </Page>
