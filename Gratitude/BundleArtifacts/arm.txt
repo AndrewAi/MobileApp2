@@ -1,0 +1,2 @@
+MainPackage=C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\bin\ARM\Release\Gratitude_1.1.0.0_ARM.appx
+SymbolPackage=C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\AppPackages\Gratitude_1.1.0.0_Test\Gratitude_1.1.0.0_ARM.appxsym

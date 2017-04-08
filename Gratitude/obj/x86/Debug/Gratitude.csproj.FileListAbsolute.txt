@@ -381,3 +381,4 @@ C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\obj\x86\Debug\qual
 C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\obj\x86\Debug\Gratitude.csprojResolveAssemblyReference.cache

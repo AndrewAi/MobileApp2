@@ -60,8 +60,10 @@ namespace Gratitude
             {
                 timer.Stop();
 
+                my.Play();
 
-                
+
+
             }
 
         }
@@ -76,7 +78,8 @@ namespace Gratitude
             {
                 timer2.Stop();
 
-               
+                my.Play();
+
 
             }
 
@@ -120,12 +123,12 @@ namespace Gratitude
 
         private async void button2_Click(object sender, RoutedEventArgs e)
         {
-
+            
             System.Diagnostics.Debug.WriteLine("btn3");
 
             int timeInt;
            
-            timeInt = int.Parse(textBox.Text);
+            timeInt = int.Parse(TimeBox.Text);
 
             //String Key = timeInt.ToString().PadRight(5, '0');
 

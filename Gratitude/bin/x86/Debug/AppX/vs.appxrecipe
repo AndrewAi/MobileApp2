@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-06T11:39:09.380</Modified>
+      <Modified>2017-04-06T20:22:06.282</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\bin\x86\Debug\Gratitude.exe">
       <PackagePath>entrypoint\Gratitude.exe</PackagePath>
-      <Modified>2017-04-06T11:39:08.238</Modified>
+      <Modified>2017-04-06T20:22:03.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AndrewIrwin\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -488,7 +488,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\bin\x86\Debug\Gratitude.xr.xml">
       <PackagePath>Gratitude.xr.xml</PackagePath>
-      <Modified>2017-04-06T11:39:07.948</Modified>
+      <Modified>2017-04-06T20:22:02.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -497,11 +497,11 @@
     <AppxPackagedFile Include="C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-06T11:39:09.014</Modified>
+      <Modified>2017-04-06T20:22:05.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AndrewIrwin\Documents\Gratitude\MobileApp2\Gratitude\bin\x86\Debug\Core\Gratitude.exe">
       <PackagePath>Gratitude.exe</PackagePath>
-      <Modified>2017-04-06T11:39:09.367</Modified>
+      <Modified>2017-04-06T20:22:06.237</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

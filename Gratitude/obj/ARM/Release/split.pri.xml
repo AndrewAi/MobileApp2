@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="6017AndrewIrwin.GratitudeMed" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Language>EN-US</Language>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Gratitude.xr.xml" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/Gratitude.xr.xml">
+				<Candidate type="Path">
+					<Value>Gratitude.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="1" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/1">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>You shouldn’t give circumstances the power to rouse anger, for they don’t care at all.
+- Marcus Aurelius</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="10" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/10">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Whenever you find yourself on the side of the majority, it is time to pause and reflect.”
+-Mark Twain</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="11" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/11">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“I will not let anyone walk through my mind with their dirty feet.”
+-Mahatma Gandhi</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="12" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/12">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Better to write for yourself and have no public, than to write for the public and have no self.”
+-Cyril Connolly</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="13" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/13">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“We must not allow other people’s limited perceptions to define us.”
+-Virginia Satir</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="14" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/14">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Don’t look for society to give you permission to be yourself.”
+-Steve Maraboli</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="15" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/15">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“If things go wrong, don’t go with them.”
+-Roger Babson</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="16" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/16">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Wanting to be someone else is a waste of who you are.”
+-Kurt Cobain</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="17" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/17">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Tension is who you think you should be. Relaxation is who you are.”
+-Chinese Proverb</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="18" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/18">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Where’s your will to be weird?”
+-Jim Morrison</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="19" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/19">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Some people say you are going the wrong way, when it’s simply a way of your own.”
+-Angelina Jolie</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="2" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/2">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Erase the false impressions from your mind by constantly saying to yourself, I have it in my soul to keep out any evil, desire or any kind of disturbance—instead, seeing the true nature of things, I will give them only their due. Always remember this power that nature gave you.
+- Marcus Aurelius</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="20" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/20">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Remember to always be yourself. Unless you suck.”
+-Joss Whedon</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="21" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/21">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Do what you can, with what you have, where you are.”
+-Theodore Roosevelt</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="22" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/22">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Be yourself; everyone else is already taken.”
+-Oscar Wilde</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="23" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/23">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“I took a deep breath and listened to the old bray of my heart. I am. I am. I am.”
+-Sylvia Plath</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="24" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/24">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“There came a time when the risk to remain tight in the bud was more painful than the risk it took to blossom.”
+-Anaïs Nin</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="25" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/25">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“To find yourself, think for yourself.”
+-Socrates</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="26" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/26">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“If you seek authenticity for authenticity’s sake you are no longer authentic.”
+-Jean Paul Sartre</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="27" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/27">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“If you cannot be a poet, be the poem.”
+-David Carradine</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="28" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/28">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“When one is pretending the entire body revolts.”
+-Anaïs Nin</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="29" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/29">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Be there for others, but never leave yourself behind.”
+-Dodinsky</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="3" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/3">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>We are really competing against ourselves, we have no control over how other people perform.
+- Pete Cashmore</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="30" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/30">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Do what you must,
+And your friends will adjust.”
+-Robert Brault</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="31" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/31">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Just let awareness have its way with you completely.”
+-Scott Morrison</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="32" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/32">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“We must be our own before we can be another’s.”
+-Ralph Waldo Emerson</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="33" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/33">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“This above all: to thine own self be true.”
+-William Shakespeare</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="4" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/4">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“How many cares one loses when one decides not to be something but to be someone.” -Gabrielle “Coco” Chanel</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="5" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/5">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.”
+-Dr. Seuss</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="6" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/6">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Imitation is suicide.”
+-Ralph Waldo Emerson</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="7" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/7">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Do your own thing on your own terms and get what you came here for.”
+-Oliver James</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="8" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/8">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Flatter yourself critically.”
+-Willis Goth Regier</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="9" uri="ms-resource://6017AndrewIrwin.GratitudeMed/Resources/9">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>“Do what you feel in your heart to be right, for you’ll be criticized anyway.”
+-Eleanor Roosevelt</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
